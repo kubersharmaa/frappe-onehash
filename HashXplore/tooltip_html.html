@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Tooltip-Example</title>
+</head>
+const chart = new frappe.Chart("#chart", {  // or a DOM element,
+                // new Chart() in case of ES6 module with above usage
+                title: "My Awesome Chart",
+                data: data,
+                type: $('#chart_type').val(), // or 'bar', 'line', 'scatter', 'pie', 'percentage'
+                height: 250,
+                colors: ['#7cd6fd', '#743ee2']
+            });
+<body>
+    <div class="container" style="contain: ; display: flex; height: fit-content; width: fit-content;">
+        <div class="user-profile" style="display: flex;">
+            <img src="./dp.png" style="border-radius: 50%; height: 100px; padding: 10px;">
+            <div class="user-info">
+                <h2>Social Handle <br>
+                    <small>Bio/Company</small>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <p>Followers</p>
+                        <p>100</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <p>Following</p>
+                        <p>100</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2 data-toggle="tooltip" title=" Go to Profile" style="margin:20px;">
+                            <i class="fa fa-external-link-square" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+        </script>
+</body>
+
+</html>

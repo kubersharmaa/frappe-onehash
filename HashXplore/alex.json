@@ -1,0 +1,230 @@
+{
+    "args": {
+        "email": "alex@clearbit.com"
+    },
+    "message": {
+        "person": {
+            "id": "3622a31e-7d4c-41bf-a422-65b36b4a401d",
+            "name": {
+                "fullName": "Alex MacCaw",
+                "givenName": "Alex",
+                "familyName": "MacCaw"
+            },
+            "email": "alex@clearbit.com",
+            "location": "San Francisco, CA, US",
+            "timeZone": "America/Los_Angeles",
+            "utcOffset": -8,
+            "geo": {
+                "city": "San Francisco",
+                "state": "California",
+                "stateCode": "CA",
+                "country": "United States",
+                "countryCode": "US",
+                "lat": 37.7749295,
+                "lng": -122.4194155
+            },
+            "bio": "Co-founder and Chairman @clearbit. \n\nTweeting about startups, programming, and stuff that gratifies the intellectual curiosity. \n\nTea, Earl Grey, hot. \ud83d\udd96",
+            "site": "http://alexmaccaw.com",
+            "avatar": "https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/3622a31e-7d4c-41bf-a422-65b36b4a401d",
+            "employment": {
+                "domain": "clearbit.com",
+                "name": "Clearbit",
+                "title": "Co-founder, CEO",
+                "role": "leadership",
+                "subRole": "ceo",
+                "seniority": "executive"
+            },
+            "facebook": {
+                "handle": "amaccaw"
+            },
+            "github": {
+                "handle": "maccman",
+                "id": 2142,
+                "avatar": "https://avatars2.githubusercontent.com/u/2142?v=4",
+                "company": "Clearbit",
+                "blog": "http://alexmaccaw.com",
+                "followers": 3594,
+                "following": 111
+            },
+            "twitter": {
+                "handle": "maccaw",
+                "id": 2006261,
+                "bio": "Co-founder and Chairman @clearbit. \n\nTweeting about startups, programming, and stuff that gratifies the intellectual curiosity. \n\nTea, Earl Grey, hot. \ud83d\udd96",
+                "followers": 25412,
+                "following": 2362,
+                "statuses": 11341,
+                "favorites": 11986,
+                "location": "New Zealand",
+                "site": "http://alexmaccaw.com",
+                "avatar": "https://pbs.twimg.com/profile_images/918603761861328896/MSXrAULz.jpg"
+            },
+            "linkedin": {
+                "handle": "in/alex-maccaw-ab592978"
+            },
+            "googleplus": {
+                "handle": null
+            },
+            "gravatar": {
+                "handle": "maccman",
+                "urls": [
+                    {
+                        "value": "http://alexmaccaw.com",
+                        "title": "Personal Website"
+                    }
+                ],
+                "avatar": "https://secure.gravatar.com/avatar/994909da96d3afaf4daaf54973914b64",
+                "avatars": [
+                    {
+                        "url": "https://secure.gravatar.com/avatar/994909da96d3afaf4daaf54973914b64",
+                        "type": "thumbnail"
+                    }
+                ]
+            },
+            "fuzzy": false,
+            "emailProvider": false,
+            "indexedAt": "2021-01-16T20:08:41.132Z"
+        },
+        "company": {
+            "id": "a114c279-67aa-4faa-beaf-64246a856450",
+            "name": "Clearbit",
+            "legalName": "APIHub, Inc",
+            "domain": "clearbit.com",
+            "domainAliases": [
+                "clearbit.co",
+                "clearbit.ca"
+            ],
+            "site": {
+                "phoneNumbers": [
+                    "+1 866-241-4820",
+                    "+1 415-805-3400",
+                    "+1 916-445-1254",
+                    "+1 800-952-5210"
+                ],
+                "emailAddresses": [
+                    "alex@clearbit.com",
+                    "privacy@clearbit.com",
+                    "mary@clearbit.com",
+                    "alerts@clearbit.com",
+                    "success@clearbit.com",
+                    "support@clearbit.com"
+                ]
+            },
+            "category": {
+                "sector": "Information Technology",
+                "industryGroup": "Software & Services",
+                "industry": "Internet Software & Services",
+                "subIndustry": "Internet Software & Services",
+                "sicCode": "48",
+                "naicsCode": "51"
+            },
+            "tags": [
+                "Information Technology & Services",
+                "Technology",
+                "SAAS",
+                "B2B"
+            ],
+            "description": "Grow your business with marketing and sales built on detailed data from Clearbit. Discover powerful products and APIs to increase and close quality leads.",
+            "foundedYear": 2014,
+            "location": "90 Sheridan St, San Francisco, CA 94103, USA",
+            "timeZone": "America/Los_Angeles",
+            "utcOffset": -8,
+            "geo": {
+                "streetNumber": "90",
+                "streetName": "Sheridan Street",
+                "subPremise": null,
+                "city": "San Francisco",
+                "postalCode": "94103",
+                "state": "California",
+                "stateCode": "CA",
+                "country": "United States",
+                "countryCode": "US",
+                "lat": 37.77219420000001,
+                "lng": -122.4118037
+            },
+            "logo": "https://logo.clearbit.com/clearbit.com",
+            "facebook": {
+                "handle": "clearbitinc",
+                "likes": 10906
+            },
+            "linkedin": {
+                "handle": "company/clearbit"
+            },
+            "twitter": {
+                "handle": "clearbit",
+                "id": "2857311332",
+                "bio": "Clearbit is the marketing data engine for all of your customer interactions. Send questions to support@clearbit.com.",
+                "followers": 3902,
+                "following": 232,
+                "location": "San Francisco",
+                "site": "https://t.co/r06mCbdPuR",
+                "avatar": "https://pbs.twimg.com/profile_images/885174521090646017/boQMtD4j_normal.jpg"
+            },
+            "crunchbase": {
+                "handle": "organization/clearbit"
+            },
+            "emailProvider": false,
+            "type": "private",
+            "ticker": null,
+            "identifiers": {
+                "usEIN": null
+            },
+            "phone": "+1 415-805-3400",
+            "metrics": {
+                "alexaUsRank": 2579,
+                "alexaGlobalRank": 10993,
+                "employees": 84,
+                "employeesRange": "51-250",
+                "marketCap": null,
+                "raised": 17000000,
+                "annualRevenue": null,
+                "estimatedAnnualRevenue": "$10M-$50M",
+                "fiscalYearEnd": null
+            },
+            "indexedAt": "2021-02-01T00:40:16.422Z",
+            "tech": [
+                "google_apps",
+                "aws_route_53",
+                "contentful",
+                "zendesk",
+                "segment",
+                "mailgun",
+                "lever",
+                "google_analytics",
+                "quickbooks",
+                "rubicon_project",
+                "appnexus",
+                "github",
+                "openx",
+                "mongodb",
+                "mediamath",
+                "pubmatic",
+                "salesforce",
+                "postgresql",
+                "unbounce",
+                "mysql",
+                "dropbox"
+            ],
+            "techCategories": [
+                "productivity",
+                "dns",
+                "content_management_system",
+                "customer_support",
+                "customer_data_platform",
+                "email_delivery_service",
+                "applicant_tracking_system",
+                "analytics",
+                "accounting_and_finance",
+                "advertising",
+                "database",
+                "crm",
+                "marketing_automation"
+            ],
+            "parent": {
+                "domain": null
+            },
+            "ultimateParent": {
+                "domain": null
+            }
+        }
+    }
+}

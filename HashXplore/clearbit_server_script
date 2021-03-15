@@ -1,0 +1,12 @@
+frappe.response['args'] = (frappe.request.args)
+
+url = "https://person-stream.clearbit.com/v2/combined/find?email=" + frappe.response['args']['email']
+
+payload = {}
+
+headers = {
+    'Authorization': 'Bearer sk_85afccaf799dc9484fcd252ef330825d'
+}
+
+response = frappe.make_get_request(url = url, auth = None, headers = headers)
+frappe.response['message'] = response

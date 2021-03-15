@@ -1,0 +1,117 @@
+.cap {
+    text-transform: capitalize;
+}
+.link {
+    color: blue;
+}
+.overview {
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-component {
+    height: 160px;
+    width: auto;
+    border-radius: 24px;
+}
+
+.person-resource h2 {
+    flex: 1 1 auto;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    padding: 9px 0;
+    color: #a7a9ac;
+    margin: 0 0 0 20px;
+    min-width: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.overview h2 strong {
+    font-weight: 400;
+    color: #222426;
+}
+
+ul.title-value-component {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.data {
+    display: -webkit-flex;
+    display: flex;
+    padding: 10px;
+}
+
+.personal-data {
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+ul.title-value-component li {
+    display: block;
+    position: relative;
+}
+
+ul.title-value-component h4.title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222426;
+}
+
+ul.title-value-component p.value {
+    font-size: 14px;
+    font-weight: 400;
+    color: #68727d;
+}
+
+.person-resource .data .social-data {
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.about-container {
+    width: max-content;
+    border: 1px black solid;
+}
+.about-user {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px;
+}
+.about-user img {
+    vertical-align: middle;
+    border-radius: 50%;
+    height: 88px;
+}
+.about-user-info {
+    margin-left: 2em;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.about-tooltip + .tooltip > .tooltip-arrow {
+    visibility: hidden;
+}
+.about-tooltip + .tooltip > .tooltip-inner {
+    background-color: #ffffff;
+    margin-right: 10px;
+}

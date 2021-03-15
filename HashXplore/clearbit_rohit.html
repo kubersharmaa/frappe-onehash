@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./clearbit_rohit.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Clearbit</title>
+</head>
+
+<body>
+
+    <div class="person-resource">
+        <div class="overview">
+            <div class="image-component-root">
+                <!-- <img src="${contact.avatar}" class=" image-component"> -->
+            </div>
+            <div>
+                <h2>${contact.name.fullName}</h2>
+                <h2><strong class="value">${contact.employment.title} at ${contact.employment.name}</strong>
+                </h2>
+            </div>
+        </div>
+        <div class="row data">
+            <div class="col-md-6 personal-data">
+                <ul class="title-value-component">
+                    <li>
+                        <h4 class="title"><i class="fa fa-user" aria-hidden="true"></i> Name</h4>
+                        <p class="value">${contact.name.fullName}</p>
+                    </li>
+                    <li>
+                        <h4 class="title"><i class="fa fa-info" aria-hidden="true"></i> Bio</h4>
+                        <p class="value">${contact.bio}</p>
+                    </li>
+                    <li class="link">
+                        <h4 class="title"><i class="fa fa-envelope-o" aria-hidden="true" style="color: #e94134;"></i>
+                            Email</h4>
+                        <p class="value link">
+                            <a href="mailto:${contact.email}" title="${contact.email}"
+                                class="ellipsis-overflow">${contact.email}</a>
+                        </p>
+                    </li>
+                    <li>
+                        <h4 class="title"><i class="fa fa-quote-left" aria-hidden="true"></i> Role</h4>
+                        <p class="value cap">${contact.employment.role}</p>
+                    </li>
+                    <li>
+                        <h4 class="title"><i class="fa fa-users" aria-hidden="true"></i> Seniority</h4>
+                        <p class="value cap">${contact.employment.seniority}</p>
+                    </li>
+                    <li>
+                        <h4 class="title"><i class="fa fa-globe" aria-hidden="true" style="color: #93b8d1;"></i>
+                            Location</h4>
+                        <p class="value">${contact.location}</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6 social-data">
+                <ul class="title-value-component">
+                    <li class="link">
+                        <h4 class="title"><i class="fa fa-paper-plane" aria-hidden="true"></i> Site</h4>
+                        <p class="value link">
+                            <a href="${contact.site}" title="${contact.site}"
+                                class="ellipsis-overflow">${contact.site}</a>
+                        </p>
+                    </li>
+                    <li class="link" data-toggle="tooltip">
+                        <h4 class="title"><i class="fa fa-github" aria-hidden="true"></i> Github</h4>
+                        <p class="value link">
+                            <a href="https://github.com/${contact.github.handle}"
+                                title="https://github.com/${contact.github.handle}"
+                                class="ellipsis-overflow">github.com/${contact.github.handle}</a>
+                        </p>
+                    </li>
+                    <li class="link" data-toggle="tooltip">
+                        <h4 class="title"><i class="fa fa-twitter" aria-hidden="true"
+                                style="color: rgba(29,161,242,1.00);"></i> Twitter</h4>
+                        <p class="value link">
+                            <a href="https://twitter.com/${contact.twitter.handle}"
+                                title="https://twitter.com/${contact.twitter.handle}"
+                                class="ellipsis-overflow">twitter.com/${contact.twitter.handle}</a>
+                        </p>
+                    </li>
+                    <li class="link">
+                        <h4 class="title"><i class="fa fa-facebook" aria-hidden="true" style="color: #1778f2;"></i>
+                            Facebook</h4>
+                        <p class="value link">
+                            <a href="https://facebook.com/${contact.facebook.handle}"
+                                title="https://facebook.com/${contact.facebook.handle}"
+                                class="ellipsis-overflow">facebook.com/${contact.facebook.handle}</a>
+                        </p>
+                    </li>
+                    <li class="link">
+                        <h4 class="title"><i class="fa fa-linkedin-square" aria-hidden="true"
+                                style="color: #0073b1;"></i> LinkedIn</h4>
+                        <p class="value link">
+                            <a href="https://linkedin.com/${contact.linkedin.handle}"
+                                title="https://linkedin.com/${contact.linkedin.handle}"
+                                class="ellipsis-overflow">linkedin.com/${contact.linkedin.handle}</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="user-profile">
+            <img src="./dp.png">
+            <div class="user-info">
+                <h2>Social Handle</h2>
+                <p>Bio/Company</p>
+                <div class="user-social-reach">
+                    <div>
+                        <p>Followers</p>
+                        <p>100</p>
+                    </div>
+                    <div>
+                        <p>Following</p>
+                        <p>100</p>
+                    </div>
+                    <h2 data-toggle="tooltip" title=" Go to Profile"><i class="fa fa-external-link-square"
+                            aria-hidden="true"></i></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip({
+                title: `<div class="container" style="display: flex; height: fit-content; width: fit-content;">
+        <div class="user-profile" style="display: flex;">
+            <img src="./dp.png" style="border-radius: 50%; height: 100px; padding: 10px;">
+            <div class="user-info">
+                <h2>Social Handle <br>
+                    <small>Bio/Company</small>
+                </h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <p>Followers</p>
+                        <p>100</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <p>Following</p>
+                        <p>100</p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <h2 data-toggle="tooltip" title=" Go to Profile" style="margin:20px;">
+                            <i class="fa fa-external-link-square" aria-hidden="true"></i>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>`, html: true, placement: "left"
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,337 @@
+{
+    "id": 3671081353329,
+    "email": "ankur.g@homelane.com",
+    "closed_at": null,
+    "created_at": "2021-03-13T15:15:49+05:30",
+    "updated_at": "2021-03-13T15:15:51+05:30",
+    "number": 2085,
+    "note": "PO/176150\tShiva\nDifferent amount has mentioned ",
+    "token": "9f838ea5099644a21e60d29d67fd87d2",
+    "gateway": "manual",
+    "test": false,
+    "total_price": "14112.20",
+    "subtotal_price": "11959.49",
+    "total_weight": 3000,
+    "total_tax": "2152.71",
+    "taxes_included": false,
+    "currency": "INR",
+    "financial_status": "pending",
+    "confirmed": true,
+    "total_discounts": "9490.51",
+    "total_line_items_price": "21450.00",
+    "cart_token": null,
+    "buyer_accepts_marketing": false,
+    "name": "TIPSY#3085",
+    "referring_site": null,
+    "landing_site": null,
+    "cancelled_at": null,
+    "cancel_reason": null,
+    "total_price_usd": "194.21",
+    "checkout_token": null,
+    "reference": null,
+    "user_id": 41585934449,
+    "location_id": null,
+    "source_identifier": null,
+    "source_url": null,
+    "processed_at": "2021-03-13T15:15:49+05:30",
+    "device_id": null,
+    "phone": null,
+    "customer_locale": "en",
+    "app_id": 1354745,
+    "browser_ip": null,
+    "landing_site_ref": null,
+    "order_number": 3085,
+    "discount_applications": [
+     {
+      "type": "manual",
+      "value": "19.07",
+      "value_type": "percentage",
+      "allocation_method": "one",
+      "target_selection": "explicit",
+      "target_type": "line_item",
+      "description": "",
+      "title": ""
+     },
+     {
+      "type": "manual",
+      "value": "5400.0",
+      "value_type": "fixed_amount",
+      "allocation_method": "across",
+      "target_selection": "all",
+      "target_type": "line_item",
+      "description": "Custom discount",
+      "title": "Custom discount"
+     }
+    ],
+    "discount_codes": [
+     {
+      "code": "Custom discount",
+      "amount": "5400.00",
+      "type": "fixed_amount"
+     }
+    ],
+    "note_attributes": [],
+    "payment_gateway_names": [
+     "manual"
+    ],
+    "processing_method": "manual",
+    "checkout_id": null,
+    "source_name": "shopify_draft_order",
+    "fulfillment_status": null,
+    "tax_lines": [
+     {
+      "price": "2152.71",
+      "rate": 0.18,
+      "title": "IGST",
+      "price_set": {
+       "shop_money": {
+        "amount": "2152.71",
+        "currency_code": "INR"
+       },
+       "presentment_money": {
+        "amount": "2152.71",
+        "currency_code": "INR"
+       }
+      }
+     }
+    ],
+    "tags": "",
+    "contact_email": "ankur.g@homelane.com",
+    "order_status_url": "https://idecorwala.com/6381773/orders/9f838ea5099644a21e60d29d67fd87d2/authenticate?key=483ba825726265d22d0bff39ae435ba8",
+    "presentment_currency": "INR",
+    "total_line_items_price_set": {
+     "shop_money": {
+      "amount": "21450.00",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "21450.00",
+      "currency_code": "INR"
+     }
+    },
+    "total_discounts_set": {
+     "shop_money": {
+      "amount": "9490.51",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "9490.51",
+      "currency_code": "INR"
+     }
+    },
+    "total_shipping_price_set": {
+     "shop_money": {
+      "amount": "0.00",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "0.00",
+      "currency_code": "INR"
+     }
+    },
+    "subtotal_price_set": {
+     "shop_money": {
+      "amount": "11959.49",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "11959.49",
+      "currency_code": "INR"
+     }
+    },
+    "total_price_set": {
+     "shop_money": {
+      "amount": "14112.20",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "14112.20",
+      "currency_code": "INR"
+     }
+    },
+    "total_tax_set": {
+     "shop_money": {
+      "amount": "2152.71",
+      "currency_code": "INR"
+     },
+     "presentment_money": {
+      "amount": "2152.71",
+      "currency_code": "INR"
+     }
+    },
+    "line_items": [
+     {
+      "id": 9651473055857,
+      "variant_id": 32132659478641,
+      "title": "Lucas",
+      "quantity": 2,
+      "sku": "EAR101",
+      "variant_title": "Black EAR101",
+      "vendor": "iDecorwala.com",
+      "fulfillment_service": "manual",
+      "product_id": 4592459055217,
+      "requires_shipping": true,
+      "taxable": true,
+      "gift_card": false,
+      "name": "Lucas - Black EAR101",
+      "variant_inventory_management": "shopify",
+      "properties": [],
+      "product_exists": true,
+      "fulfillable_quantity": 2,
+      "grams": 1500,
+      "price": "10725.00",
+      "total_discount": "4090.51",
+      "fulfillment_status": null,
+      "price_set": {
+       "shop_money": {
+        "amount": "10725.00",
+        "currency_code": "INR"
+       },
+       "presentment_money": {
+        "amount": "10725.00",
+        "currency_code": "INR"
+       }
+      },
+      "total_discount_set": {
+       "shop_money": {
+        "amount": "4090.51",
+        "currency_code": "INR"
+       },
+       "presentment_money": {
+        "amount": "4090.51",
+        "currency_code": "INR"
+       }
+      },
+      "discount_allocations": [
+       {
+        "amount": "4090.51",
+        "discount_application_index": 0,
+        "amount_set": {
+         "shop_money": {
+          "amount": "4090.51",
+          "currency_code": "INR"
+         },
+         "presentment_money": {
+          "amount": "4090.51",
+          "currency_code": "INR"
+         }
+        }
+       },
+       {
+        "amount": "5400.00",
+        "discount_application_index": 1,
+        "amount_set": {
+         "shop_money": {
+          "amount": "5400.00",
+          "currency_code": "INR"
+         },
+         "presentment_money": {
+          "amount": "5400.00",
+          "currency_code": "INR"
+         }
+        }
+       }
+      ],
+      "admin_graphql_api_id": "gid://shopify/LineItem/9651473055857",
+      "tax_lines": [
+       {
+        "title": "IGST",
+        "price": "2152.71",
+        "rate": 0.18,
+        "price_set": {
+         "shop_money": {
+          "amount": "2152.71",
+          "currency_code": "INR"
+         },
+         "presentment_money": {
+          "amount": "2152.71",
+          "currency_code": "INR"
+         }
+        }
+       }
+      ]
+     }
+    ],
+    "fulfillments": [],
+    "refunds": [],
+    "total_tip_received": "0.0",
+    "admin_graphql_api_id": "gid://shopify/Order/3671081353329",
+    "shipping_lines": [],
+    "billing_address": {
+     "first_name": "Homelane.com",
+     "address1": "1st Floor,Imperial Square,",
+     "phone": "+919448920174",
+     "city": "Hyderabad",
+     "zip": "500010",
+     "province": "Andhra Pradesh",
+     "country": "India",
+     "last_name": "Hyd Showroom",
+     "address2": "Beside Tree in Hotel, Patrika Nagar, Hi-Tech City, 36AADCH3844D1ZT",
+     "company": "Homevista Decor & Furnishings Pvt Ltd",
+     "latitude": 17.5170626,
+     "longitude": 78.5149691,
+     "name": "Homelane.com Hyd Showroom",
+     "country_code": "IN",
+     "province_code": "AP"
+    },
+    "shipping_address": {
+     "first_name": "Homelane.com",
+     "address1": "Rednile innovations pvt.Ltd,1-5-1118/1/14 Shed ",
+     "phone": "+919448920174",
+     "city": "Hyderabad",
+     "zip": "500010",
+     "province": "Andhra Pradesh",
+     "country": "India",
+     "last_name": "Hyd Warehouse",
+     "address2": "No.y.No-580 Jonnabanda Alwal Secunderabad 36AADCH3844D1ZT",
+     "company": "Homevista Decor & Furnishings Pvt Ltd",
+     "latitude": 17.5170626,
+     "longitude": 78.5149691,
+     "name": "Homelane.com Hyd Warehouse",
+     "country_code": "IN",
+     "province_code": "AP"
+    },
+    "customer": {
+     "id": 5032946892913,
+     "email": "ankur.g@homelane.com",
+     "accepts_marketing": false,
+     "created_at": "2021-03-03T14:35:43+05:30",
+     "updated_at": "2021-03-13T15:15:50+05:30",
+     "first_name": "Homevista Decor Furnishings",
+     "last_name": "Pvt.Ltd",
+     "orders_count": 33,
+     "state": "disabled",
+     "total_spent": "805168.91",
+     "last_order_id": 3671081353329,
+     "note": "",
+     "verified_email": true,
+     "multipass_identifier": null,
+     "tax_exempt": false,
+     "phone": "+918860599169",
+     "tags": "",
+     "last_order_name": "TIPSY#3085",
+     "currency": "INR",
+     "accepts_marketing_updated_at": "2021-03-03T15:10:17+05:30",
+     "marketing_opt_in_level": null,
+     "admin_graphql_api_id": "gid://shopify/Customer/5032946892913",
+     "default_address": {
+      "id": 6199502995569,
+      "customer_id": 5032946892913,
+      "first_name": "Homelane.com",
+      "last_name": "Hyd Warehouse",
+      "company": "Homevista Decor & Furnishings Pvt Ltd",
+      "address1": "Rednile innovations pvt.Ltd,1-5-1118/1/14 Shed ",
+      "address2": "No.y.No-580 Jonnabanda Alwal Secunderabad 36AADCH3844D1ZT",
+      "city": "Hyderabad",
+      "province": "Andhra Pradesh",
+      "country": "India",
+      "zip": "500010",
+      "phone": "+919448920174",
+      "name": "Homelane.com Hyd Warehouse",
+      "province_code": "AP",
+      "country_code": "IN",
+      "country_name": "India",
+      "default": true
+     }
+    }
+   }

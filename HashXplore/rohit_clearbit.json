@@ -1,0 +1,221 @@
+{
+    "message": {
+        "person": {
+            "id": "1d466006-962e-4883-9560-4b3de52be367",
+            "name": {
+                "fullName": "Rohit Gadia",
+                "givenName": "Rohit",
+                "familyName": "Gadia"
+            },
+            "email": "rohitgadia@capitalvia.com",
+            "location": "Bengaluru, KA, IN",
+            "timeZone": "Asia/Kolkata",
+            "utcOffset": 5,
+            "geo": {
+                "city": "Bengaluru",
+                "state": "Karnataka",
+                "stateCode": "KA",
+                "country": "India",
+                "countryCode": "IN",
+                "lat": 12.9715987,
+                "lng": 77.5945627
+            },
+            "bio": "Passionate Entrepreneur about: People. Process. Technology.",
+            "site": "http://www.capitalvia.com",
+            "avatar": "https://d1ts43dypk8bqh.cloudfront.net/v1/avatars/1d466006-962e-4883-9560-4b3de52be367",
+            "employment": {
+                "domain": "capitalvia.com",
+                "name": "CapitalVia Global Research Limited - Investment Advisor",
+                "title": "Founder CEO",
+                "role": "leadership",
+                "subRole": "ceo",
+                "seniority": "executive"
+            },
+            "facebook": {
+                "handle": null
+            },
+            "github": {
+                "handle": null,
+                "id": null,
+                "avatar": null,
+                "company": null,
+                "blog": null,
+                "followers": null,
+                "following": null
+            },
+            "twitter": {
+                "handle": "gadiarohit",
+                "id": 139143697,
+                "bio": "Passionate Entrepreneur about: People. Process. Technology.",
+                "followers": 5370,
+                "following": 207,
+                "statuses": 775,
+                "favorites": 25,
+                "location": "Bangalore",
+                "site": "http://www.capitalvia.com",
+                "avatar": "https://pbs.twimg.com/profile_images/520913794675924992/WZBJK2ed.jpeg"
+            },
+            "linkedin": {
+                "handle": "in/rohitgadia"
+            },
+            "googleplus": {
+                "handle": null
+            },
+            "gravatar": {
+                "handle": null,
+                "urls": [],
+                "avatar": null,
+                "avatars": []
+            },
+            "fuzzy": false,
+            "emailProvider": false,
+            "indexedAt": "2021-02-09T05:26:06.365Z"
+        },
+        "company": {
+            "id": "15c333e1-fca8-4d7f-9385-92568a2c63af",
+            "name": "CapitalVia Global Research Limited - Investment Advisor",
+            "legalName": null,
+            "domain": "capitalvia.com",
+            "domainAliases": [],
+            "site": {
+                "phoneNumbers": [],
+                "emailAddresses": []
+            },
+            "category": {
+                "sector": "Industrials",
+                "industryGroup": "Commercial & Professional Services",
+                "industry": "Professional Services",
+                "subIndustry": "Consulting",
+                "sicCode": "73",
+                "naicsCode": "54"
+            },
+            "tags": [
+                "Consulting & Professional Services",
+                "Investment Management",
+                "B2B"
+            ],
+            "description": "Award winning investment advisors, SEBI Registered Stock Advisory Company, forex and commodity trading signals, expert guidance by certified professionals.",
+            "foundedYear": 2008,
+            "location": "903, B-1 9th Floor, NRK Business Park, Mangal City Service Rd, Scheme 54 PU4, Indore, Madhya Pradesh 452010, India",
+            "timeZone": "Asia/Kolkata",
+            "utcOffset": 5,
+            "geo": {
+                "streetNumber": null,
+                "streetName": "Mangal City Service Road",
+                "subPremise": null,
+                "city": "Indore",
+                "postalCode": "452010",
+                "state": "Madhya Pradesh",
+                "stateCode": "MP",
+                "country": "India",
+                "countryCode": "IN",
+                "lat": 22.7518057,
+                "lng": 75.8970087
+            },
+            "logo": "https://logo.clearbit.com/capitalvia.com",
+            "facebook": {
+                "handle": "capitalvia",
+                "likes": 53474
+            },
+            "linkedin": {
+                "handle": "company/capitalvia-global-research-limited"
+            },
+            "twitter": {
+                "handle": "CapitalVia",
+                "id": "27611045",
+                "bio": "CapitalVia Global Research Limited (#Investment #Advisor) is a noted pure play #financial #MarketResearch and #consulting company.",
+                "followers": 10452,
+                "following": 160,
+                "location": "India",
+                "site": "http://t.co/d37Y4IEGuv",
+                "avatar": "https://pbs.twimg.com/profile_images/923136206145064961/ds1KG2Sq_normal.jpg"
+            },
+            "crunchbase": {
+                "handle": null
+            },
+            "emailProvider": false,
+            "type": "private",
+            "ticker": null,
+            "identifiers": {
+                "usEIN": null
+            },
+            "phone": null,
+            "metrics": {
+                "alexaUsRank": null,
+                "alexaGlobalRank": 97600,
+                "employees": 600,
+                "employeesRange": "251-1K",
+                "marketCap": null,
+                "raised": null,
+                "annualRevenue": null,
+                "estimatedAnnualRevenue": "$50M-$100M",
+                "fiscalYearEnd": null
+            },
+            "indexedAt": "2021-02-02T19:47:52.643Z",
+            "tech": [
+                "google_apps",
+                "godaddy_nameserver",
+                "zendesk",
+                "facebook_advertiser",
+                "sendgrid",
+                "google_analytics",
+                "conversio",
+                "mandrill",
+                "google_tag_manager",
+                "quickbooks",
+                "sap_hana",
+                "oracle_data_integrator",
+                "db2",
+                "apache_tomcat",
+                "filemaker_pro",
+                "appnexus",
+                "hbase",
+                "informatica",
+                "rabbitmq",
+                "sap_sales_order_management",
+                "aws_dynamodb",
+                "pentaho",
+                "sap_crm",
+                "microsoft_power_bi",
+                "apache_spark",
+                "mongodb",
+                "rsa_securid",
+                "facebook_workplace",
+                "hive",
+                "sugarcrm",
+                "oracle_crm",
+                "apache_hadoop",
+                "salesforce",
+                "postgresql",
+                "zoho_crm",
+                "trello",
+                "mysql"
+            ],
+            "techCategories": [
+                "productivity",
+                "web_hosting",
+                "customer_support",
+                "advertising",
+                "email_delivery_service",
+                "analytics",
+                "marketing_automation",
+                "tag_management",
+                "accounting_and_finance",
+                "database",
+                "data_management",
+                "web_servers",
+                "crm",
+                "data_visualization",
+                "data_processing",
+                "security",
+                "project_management_software"
+            ],
+            "parent": {
+                "domain": null
+            },
+            "ultimateParent": {
+                "domain": null
+            }
+        }
+    }
+}
