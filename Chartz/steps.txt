@@ -1,0 +1,6 @@
+I have used Chart.js in my custom doctype.
+To make it work you need to add js and css file of Chart.js.
+I have added css file into apps/erpnext/erpnext/public/css and js file into apps/erpnext/erpnext/public/js directory.
+Then add those file into public/build.json
+CSS file into css/erpnext.css section and JS file into js/erpnext.min.js section
+        named “public/css/Chart.min.css” and “public/js/Chart.min.js” respectively.

@@ -1,0 +1,26 @@
+.wrapper {
+	margin: 15px;
+}
+
+#report-page {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.chart-container {
+	border: 1px solid #d1d8dd;
+	border-radius: 4px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.report {
+	width: fit-content;
+}
+
+text.title {
+	font-weight: bold;
+	text-decoration: underline;
+}
